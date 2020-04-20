@@ -46,12 +46,12 @@ header .top-nav {
     background-color: #f4f9fd;
     height: 80px;
     border-bottom: 1px solid #32495b;
-    padding: 27px;
+    /* padding: 27px; */
 }
 
 header .top-nav .col li {
     display: inline-block;
-    
+    margin-right: 10px;
 }
 
 header .top-nav .col a {
@@ -65,12 +65,13 @@ header .col .left {
     width: 50%;
 }
 
-Header .col.right {
+header .col.right {
     float: right;
 }
 
-
-
+header .col.right li:last-child {
+    margin-right: 0;
+}
 
 /* NAV RULES */
 
