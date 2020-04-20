@@ -14,6 +14,10 @@ ul li {
     list-style-type: none;
 }
 
+ul li a {
+    text-decoration: none;
+}
+
 /* regole del container */
 
 .container {
@@ -46,12 +50,11 @@ header .top-nav {
     background-color: #f4f9fd;
     height: 80px;
     border-bottom: 1px solid #32495b;
-    /* padding: 27px; */
 }
 
 header .top-nav .col li {
     display: inline-block;
-    margin-right: 10px;
+    margin: 27px 10px 0 0;
 }
 
 header .top-nav .col a {
@@ -75,5 +78,23 @@ header .col.right li:last-child {
 
 /* NAV RULES */
 
+header .bottom-nav {
+    background-color: #fff;
+    height: 80px;
+}
 
+header img {
+    margin-top: 27px;
+}
 
+/* ricordarsi di mettere line height e ottimizzare il codice!! */
+
+header .bottom-nav li {
+    display: inline-block;
+    margin: 27px 0 0 15px;
+}
+
+header .bottom-nav a {
+    color: #32495b;
+    font-weight: 600;
+}
