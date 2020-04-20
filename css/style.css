@@ -18,10 +18,15 @@ ul li a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
 /* regole del container */
 
 .container {
-    width: 90%;
+    width: 85%;
     margin: auto;
 }
 
@@ -39,8 +44,17 @@ ul li a {
     float: left;
 }
 
-/* header */
+/* call to action */
 
+.cta {
+    background-color: #fe775a;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 3px;
+}
+
+/* header */
 
 header span {
     color: #899397;
@@ -63,6 +77,27 @@ header .top-nav .col a {
     font-size: 12px;
     text-transform: capitalize;
 }
+
+.aqua {
+    color: #00a4bd;
+}
+
+/* stile call to action top-nav */
+
+header .top-nav .col a.style {
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    padding: 9px 7px;
+    border-radius: 3px;
+}
+
+header .top-nav .col a.style2 {
+    padding: 10px 8px;
+    background-color: #fe775a;
+    color: #fff;
+    border-radius: 5px;
+}
+
 
 header .col .left {
     width: 50%;
@@ -98,3 +133,24 @@ header .bottom-nav a {
     color: #32495b;
     font-weight: 600;
 }
+
+/* immagine sfondo header */
+
+header .background {
+    background-image: url(../img/jumbotron.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+header .background .hero-section {
+    padding: 50px 0;
+    width: 700px;
+    color: #32495b;
+}
+
+header .background .hero-section p {
+    font-weight: 500;
+    line-height: 35px;
+    margin: 30px 0;
+}
+
