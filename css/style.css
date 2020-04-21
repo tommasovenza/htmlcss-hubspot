@@ -342,4 +342,21 @@ main #linear-gradient .wrapper p {
     text-transform: unset;
 }
 
+main .wrapper-block {
+    margin-top: 50px;
+}
+
+main #linear-gradient .wrapper-block .row .col {
+    border-right: 1px solid #fff;
+    width: 25%;
+    padding: 50px 0;
+}
+
+main #linear-gradient .wrapper-block .row .col:last-child {
+    border: none;
+}
+
+main #linear-gradient hr {
+    border: .5px solid #fff;
+}
 
