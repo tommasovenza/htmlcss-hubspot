@@ -381,10 +381,11 @@ main #partners .container .row .col.right {
 
 main #partners .container .row .col.right li {
     display: inline-block;
+    margin-right: 30px ;
 }
 
 main #partners .container .row .col.right img {
-    max-width: 150px;
+    width: 80px;
 }
 
 /* seconda parte */
@@ -393,8 +394,16 @@ main #partners .container .wrapper .col {
     width: 50%;
 }
 
+main #partners .container .wrapper .col p {
+    margin-bottom: 30px;
+}
+
+main #partners a {
+    margin: 0px 0px 30px 0px;
+}
+
 main #partners .container .wrapper .col.right img {
-    max-width: 200px;
+    width: 50%;
     display: block;
     margin: auto;
 } 
