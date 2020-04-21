@@ -360,3 +360,42 @@ main #linear-gradient hr {
     border: .5px solid #fff;
 }
 
+/* sezione partners */
+
+main #partners {
+    background-color: #fff;
+}
+
+main #partners .container .row {
+    margin: 5% 5%;
+}
+
+main #partners .container .row .col {
+    width: 35%;
+    text-align: center;
+}
+
+main #partners .container .row .col.right {
+    width: 55%;
+}
+
+main #partners .container .row .col.right li {
+    display: inline-block;
+}
+
+main #partners .container .row .col.right img {
+    max-width: 150px;
+}
+
+/* seconda parte */
+
+main #partners .container .wrapper .col {
+    width: 50%;
+}
+
+main #partners .container .wrapper .col.right img {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+} 
+
