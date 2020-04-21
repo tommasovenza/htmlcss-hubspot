@@ -327,6 +327,19 @@ main #services a {
     margin: 0px 0px 30px 0px;
 }
 
+/* sezione background linear-gradient */
 
+main #linear-gradient {
+    background: rgb(0,168,186);
+    background: linear-gradient(90deg, rgba(0,168,186,1) 0%, rgba(0,186,169,1) 100%);
+    padding: 100px 0;
+    text-align: center;
+}
+
+main #linear-gradient .wrapper h2,
+main #linear-gradient .wrapper p {
+    color: #fff;
+    text-transform: unset;
+}
 
 
