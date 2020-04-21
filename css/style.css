@@ -43,6 +43,13 @@ h4 {
     margin: 20px 0;
 }
 
+h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
 /* fine typography */
 
 ul li {
@@ -411,3 +418,76 @@ main #partners .container .wrapper .col.right img {
     margin: auto;
 } 
 
+footer {
+    margin-top: 70px;
+    background-color: #32495b;
+    height: 650px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer li {
+    padding: 8px 0;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 15px;
+}
+
+footer hr {
+    border: .5px solid #fff;
+    margin: 10px 0 40px 0;
+}
+
+footer .container .wrapper .col {
+    width: 25%;
+    padding: 50px;
+}
+
+footer .cta-footer {
+    padding: 10px;
+    background-color: #899397;
+    color: #32495b;
+    border-radius: 5px;
+}
+
+footer .cta-footer:hover {
+    background-color: #fff;
+    color: #32495b;
+}
+
+footer .social-menu li {
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+    margin: 5px 25px 0 0;
+}
+
+footer .social-menu li:hover {
+    color: #00a4bd;
+}
+
+footer #wrapper-menu {
+ text-align: center;
+}
+
+footer #wrapper-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer #credits .col {
+    color: #fff;
+}
+
+footer #credits .col li {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer #credits .col.right {
+    float: right;
+}
