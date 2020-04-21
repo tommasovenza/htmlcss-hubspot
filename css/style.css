@@ -363,6 +363,29 @@ main #linear-gradient .wrapper-block .row .col:last-child {
     border: none;
 }
 
+main #linear-gradient .wrapper-block .row .col .box {
+    position: relative;
+}
+
+main #linear-gradient .wrapper-block .row .col .box p {
+    color: #fff;
+}
+
+main #linear-gradient .wrapper-block .row .col .box h2 {
+    font-size: 40px;
+    color: #fff;
+    padding: 0;
+}
+
+main #linear-gradient .wrapper-block .row .col .box h2::after {
+    content: '+';
+    font-size: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+}
+
 main #linear-gradient hr {
     border: .5px solid #fff;
 }
