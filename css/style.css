@@ -124,6 +124,13 @@ header .nav .col li {
     margin: 27px 10px 0 0;
 }
 
+/* allineamento barra navigazione in alto a sinitra */
+
+header .nav .col .fa-globe-europe,
+header .nav .col .fa-chevron-down {
+        vertical-align: middle;
+}
+
 header .nav .col a {
     font-size: 12px;
     text-transform: capitalize;
@@ -444,7 +451,7 @@ main #partners .container .wrapper .col.right img {
 footer {
     margin-top: 70px;
     background-color: #32495b;
-    height: 650px;
+    height: 850px;
 }
 
 footer p {
