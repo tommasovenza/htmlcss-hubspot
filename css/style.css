@@ -15,6 +15,10 @@ p, a, h1, h2, h3, h4, h5, h6 {
     color: #32495b;
 }
 
+p {
+    line-height: 30px;
+}
+
 h1 {
     font-size: 50px;
     font-weight: 700;
@@ -31,6 +35,12 @@ h3 {
     font-size: 24px;
     font-weight: 600;
     padding-bottom: 15px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0;
 }
 
 /* fine typography */
@@ -237,7 +247,7 @@ main #services .container .row .col {
 
 main #services .container .row .col img {
     padding-bottom: 30px;
-    max-width: 200px;
+    max-height: 170px;
     display: block;
     margin: auto;
 }
@@ -296,6 +306,26 @@ main #services #three-columns .container .col.r-30 img {
     height: 150px;
 }
 
+main #services #three-columns .container .col.l-30 hr,
+main #services #three-columns .container .col.center-30 hr,
+main #services #three-columns .container .col.r-30 hr {
+    margin: 50px 0 0 0;
+}
+
+main #services .wrapper-list {
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+main #services .wrapper-list .fa-check-circle {
+    color: #fe775a;
+    margin: 5px 0;
+}
+
+main #services a {
+    margin: 0px 0px 30px 0px;
+}
 
 
 
