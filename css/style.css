@@ -377,15 +377,18 @@ main #partners .container .row .col {
 
 main #partners .container .row .col.right {
     width: 55%;
+    margin-top: 20px;
+    float: right;
 }
 
 main #partners .container .row .col.right li {
     display: inline-block;
-    margin-right: 30px ;
+    margin-right: 30px;
+    vertical-align: middle;
 }
 
 main #partners .container .row .col.right img {
-    width: 80px;
+    width: 100px;
 }
 
 /* seconda parte */
