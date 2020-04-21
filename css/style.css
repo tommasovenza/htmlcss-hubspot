@@ -257,3 +257,16 @@ main #services .container .row .col.right hr {
      margin: 45px 0;
 }
 
+main #services .container .row .col.right .evidenza li {
+    display: inline-block;
+
+}
+
+main #services .container .row .col.right .evidenza .fa-check-circle {
+    color: #fe775a;
+}
+
+
+
+
+
