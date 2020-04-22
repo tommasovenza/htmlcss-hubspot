@@ -477,6 +477,12 @@ footer .container .wrapper .col {
     padding: 50px;
 }
 
+/* pulsante footer */
+
+footer .container .wrapper .col.fix div{
+    margin-top: 10px;
+}
+
 footer .cta-footer {
     padding: 10px;
     background-color: #899397;
