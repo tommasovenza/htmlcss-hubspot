@@ -232,7 +232,6 @@ header .background .hero-section p {
     height: 80px;
 }
 
-
 /* 
 ------------------------- services */
 
@@ -290,7 +289,6 @@ main #services .container .row .col.right .evidenza li {
 main #services .container .row .col.right .evidenza .fa-check-circle {
     color: #fe775a;
 }
-
 
 /* 3 righe centrali */
 
@@ -488,6 +486,7 @@ footer .cta-footer {
     background-color: #899397;
     color: #32495b;
     border-radius: 5px;
+    display: inline-block;
 }
 
 footer .cta-footer:hover {
